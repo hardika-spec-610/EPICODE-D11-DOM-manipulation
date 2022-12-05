@@ -6,6 +6,9 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.background-color {
+  background-color: aquamarine;
+}
 h1 {
   text-align: center;
   margin-bottom: 50px;
@@ -14,9 +17,20 @@ table .img-block {
   width: 30%;
   max-width: 100%;
 }
-table .product-block {
+.product-img {
+  width: 350px;
+  height: 250px;
+  background-color: bisque;
+}
+.toggle-img {
+  width: 350px;
+  height: 250px;
+  display: none;
+}
+.product-block {
   width: 15%;
   max-width: 100%;
+  color: black;
 }
 .product-block h3 {
   text-align: center;
@@ -47,6 +61,7 @@ table .price-block {
   background-color: black;
   padding: 20px;
   text-align: center;
+  color: white;
 }
 .ftr-section h2 {
   font-size: 2em;
