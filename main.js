@@ -25,7 +25,7 @@ function linkStyle() {
   let linknodes = document.getElementsByTagName("a");
   for (let i = 0; i < linknodes.length; i++) {
     let link = linknodes[i];
-    link.classList.add("link-style");
+    link.classList.toggle("link-style");
   }
 }
 function changeColor() {
