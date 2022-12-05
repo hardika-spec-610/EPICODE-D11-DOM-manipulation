@@ -21,7 +21,13 @@ function displayImg() {
     imagenode.classList.toggle("toggle-img");
   }
 }
-
+function linkStyle() {
+  let linknodes = document.getElementsByTagName("a");
+  for (let i = 0; i < linknodes.length; i++) {
+    let link = linknodes[i];
+    link.classList.add("link-style");
+  }
+}
 function changeColor() {
   let colors = ["red", "green", "yellow", "blue", "orange"];
   let randomColor = colors[Math.floor(Math.random() * 6)];
