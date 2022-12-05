@@ -23,9 +23,10 @@ function displayImg() {
 }
 
 function changeColor() {
-  let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  let colors = ["red", "green", "yellow", "blue", "orange"];
+  let randomColor = colors[Math.floor(Math.random() * 6)];
 
-  let price = document.getElementsByClassName("price-block");
+  let price = document.getElementsByClassName("price-text");
   for (let i = 0; i < price.length; i++) {
     let priceNode = price[i];
     priceNode.style.color = randomColor;

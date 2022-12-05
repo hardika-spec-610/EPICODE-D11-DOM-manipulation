@@ -33,6 +33,9 @@ table .img-block {
   max-width: 100%;
   color: black;
 }
+.price-text {
+  color: black;
+}
 .product-block h3 {
   text-align: center;
 }
