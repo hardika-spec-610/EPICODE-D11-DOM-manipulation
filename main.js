@@ -15,6 +15,7 @@ function changeAddress(newAddress) {
 }
 function displayImg() {
   let display = document.getElementsByTagName("img");
+  console.log(display);
   for (let i = 0; i < display.length; i++) {
     let imagenode = display[i];
     imagenode.classList.toggle("toggle-img");
